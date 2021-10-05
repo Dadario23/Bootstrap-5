@@ -1,0 +1,48 @@
+:root {
+    --dark: #16191c;
+    --dark-x: #1e2126;
+    --light: #ffffff; 
+}
+body {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 300;
+    color: var(--light);
+}
+.bg-dark {
+    background-color: var(--dark)!important;
+
+}
+.bg-dark-x {
+    background-color: var(--dark-x);
+}
+.form-control,.btn{
+    min-height: 3.125rem;
+    line-height: initial;
+}
+form {
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+} 
+button {
+    margin-right: 10px;
+    margin-left: 0px
+}
+.p-4 {
+    padding: 1rem !important;
+}
+.img-1 {
+    background-image: url('img1.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.img-2 {
+    background-image: url('img2.png');
+    background-size: cover;
+    background-position: center;
+}
+.mb-5 {
+    margin-bottom: 0rem !important;
+}
